@@ -24,6 +24,6 @@ def caesar_cipher(string, shift)
     p shifted_integers.map { |num| num.chr }.join #Shifting back to encrypted string
 end
 
-caesar_cipher("What a string!", 5)
+# caesar_cipher("What a string!", 5)
 
 
